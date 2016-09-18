@@ -1,0 +1,31 @@
+ul {list-style-type: none; padding: 0; margin: 0;}
+.body{
+	height: 1000px;
+	width: 60%;
+	margin: 0 auto;
+}
+#top{
+	height: 20%;
+	background: black;
+}
+.center{
+	height: 60%;
+	background: green;
+}
+.foot{
+	height: 20%;
+	background: purple;
+}
+.menu{
+	width: 100%;
+}
+.menu a{
+	display: block;
+	text-align: center;
+	font-size: 32px;
+}
+.menu li{
+	display: inline;
+	float: left;
+	width: 20%;	
+}
