@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script type="text/javascript">
+		function date(){
+			var a,c,d,result;
+			a = new Date();
+			b = a.getHours();
+			c = a.getMinutes();
+			d = a.getSeconds();
+			result = b+":"+c+":"+d;
+			document.getElementById("test").innerHTML=result;
+			setTimeout("date()", 1000);
+			}
+	</script>
+</head>
+<body onload="date()">
+	
+	<h1 id="test">test</h1>
+</body>
+</html>
