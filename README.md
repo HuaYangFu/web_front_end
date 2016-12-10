@@ -8,3 +8,4 @@
 * <a href="https://huayangfu.github.io/web_front_end/Date.html">時鐘</a>
 * <a href="https://huayangfu.github.io/web_front_end/AutoChangeImage/autoChangeImage.html">幻燈片</a>
 * <a href="https://huayangfu.github.io/web_front_end/HTC/HTC.html">綜合練習(仿HTC)</a>
+* <a href="https://huayangfu.github.io/web_front_end/formValidate/formValidate.html">標單欄位驗證</a>
