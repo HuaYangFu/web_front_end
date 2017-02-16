@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>test</title>
+	<script src="lib/jquery.js"></script>
+	<script src="dist/jquery.validate.js"></script>
+	<script src="dist/additional-methods.js"></script>
+	<script src="dist/localization/messages_zh_TW.min.js"></script>		
+	<script type="text/javascript">
+		$("form").submit(function () {
+		  if ($("#myform").valid()) {} 
+		  else return false;
+		});
+	</script>
+	<style>
+	h1{
+		text-align: center;
+	}
+    #nickname,#number,#phone,#mobile,#address{
+        border-radius: 5px;
+        border: none;
+        height: 25px;
+        padding-left: 10px;
+        font-family: 微軟正黑體;
+        font-size:16px;
+        outline:none;
+    }
+    </style>
+</head>
+<body>
+	<div id="test1">
+		<h1>test</h1>
+		<form id="myform" action="#">
+		    <label for='nickname' >暱稱</label>：<input type='text' id='nickname'placeholder="輸入暱稱 例如:name" required><hr>
+		    <label for='number'>學號</label>：<input type='text' id='number'  placeholder="輸入學號" required><hr>
+		    <label for='phone'>電話</label>：<input type='text' id='phone'  placeholder="輸入電話" required><hr>
+		    <label for='mobile'>手機</label>：<input type='text' id='mobile'  placeholder="輸入手機" required><hr>
+		    <label for='address'>地址</label>：<input type='text' id='address'  placeholder="輸入地址" required><hr>
+		    <input type="submit" value="push">
+		    <input type="reset" value="reset">	
+	   	    <input type="button" value="test">	
+		</form>
+	</div>
+</body>
+</html>

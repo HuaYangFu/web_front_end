@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script type="text/javascript">
+		function fun(){
+			var x = document.getElementById("test").value;
+			var y = document.getElementById("test1").value;
+			var z = document.getElementById("test4").value;
+				
+			
+			if(z == "+"){
+				var a = Number(x)+Number(y);
+			}
+			else if(z == "-"){
+				var a = Number(x)-Number(y);
+			}
+			else if(z == "*"){
+				var a = Number(x)*Number(y);
+			}
+			else if(z == "/"){
+				var a = Number(x)/Number(y);
+			}
+			document.getElementById("test2").value=a;
+		}
+	</script>
+</head>
+<body>
+	<input type="test" id="test" onclick="">
+	<select id="test4">
+		<option>+</option>
+		<option>-</option>
+		<option>*</option>
+		<option>/</option>
+	</select>
+	<input type="test" id="test1" onclick=""><br>
+	<button onclick="fun()">push</button><br>
+	<input type="test" id="test2" onclick="">
+</body>
+</html>
